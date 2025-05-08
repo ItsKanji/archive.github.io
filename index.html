@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> <!-- Sets character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Ensures responsive layout on mobile -->
+    <link rel="stylesheet" href="styles.css" /> <!-- Link to external custom CSS file -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <!-- Tailwind CSS from CDN -->
+  </head>
+  <body>
+    <!-- Top navigation bar -->
+    <div class="border-b py-4 pl-0 bc"> <!-- Border bottom with padding and custom border color (bc class) -->
+        <div class="flex items-center mx-4"> <!-- Flex container to align logo and nav items -->
+            <image src="Logo.svg" width="250" /> <!-- Logo image -->
+
+            <nav class="ml-125"> <!-- Navigation menu with left margin -->
+              <ul class="flex space-x-3 text-xl"> <!-- Horizontal list with spacing and larger text -->
+                  <!-- Navigation links -->
+                  <li><a href="index.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">HOME</a></li>
+                  <li><a href="warframes.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WARFRAMES</a></li>
+                  <li><a href="weapons.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WEAPONS</a></li>
+                  <li><a href="guides.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">GUIDES</a></li>
+                  <li><a href="https://forums.warframe.com/" target="_blank" class="px-4 py-2 hover:bg-gray-600 rounded-md">FORUM</a></li>
+              </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Centered main logo section -->
+    <div class="border-b py-4 pl-0 bc"> <!-- Reusing border and custom color class -->
+        <image src="Main Logo.svg" width="30%" class="mx-auto" /> <!-- Centered logo image -->
+    </div>
+
+    <!-- About section content -->
+    <ul class="space-y-2 px-4 tc"> <!-- Vertical spacing and custom text color (tc class) -->
+        <li class="py-4 text-4xl">ABOUT US</li> <!-- Section title -->
+        <li class="text-l">
+            Archives is your ultimate Warframe guide hub—offering expert builds, farming strategies, beginner tips, and endgame loadouts for every Tenno. Whether you're just starting out or optimizing your Mastery Rank, our regularly updated Warframe guides cover everything from modding and resource farming to Prime gear and efficient leveling. Explore the Origin System with confidence—Archives has the tools and knowledge to elevate your gameplay.
+        </li>
+        <li class="text-l py-4">
+            Warframe is a massive, ever-evolving game filled with complex mechanics, hundreds of weapons, dozens of Warframes, and layers of progression systems—from Focus schools to the Steel Path. For many new and returning players, figuring out what to do next or how to play efficiently can be overwhelming. Archives was created to help simplify that experience. Whether it's navigating the Star Chart, farming Neurodes on Deimos, or building your first Nidus Prime loadout, this site exists to break down the grind and give players clear, reliable guidance. Instead of digging through outdated wikis or scattered YouTube videos, players can come here for focused, well-organized help tailored to the actual in-game experience.
+        </li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> <!-- Set character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Enable responsive design -->
+    <link rel="stylesheet" href="styles.css" /> <!-- Your custom styles (e.g., .bc, .tc) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <!-- Tailwind CSS CDN -->
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <div class="border-b py-4 pl-0 bc"> <!-- Bottom border and padding, with custom border color class -->
+      <div class="flex items-center mx-4"> <!-- Flexbox for horizontal layout -->
+
+        <!-- Logo  -->
+        <img src="Logo.svg" width="250" />
+
+        <!-- Navigation links -->
+        <nav class="ml-125"> <!-- Custom left margin (make sure this is defined or replace with ml-[125px]) -->
+          <ul class="flex space-x-3 text-xl"> <!-- Flex row with spacing and larger text -->
+            <li><a href="index.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">HOME</a></li>
+            <li><a href="warframes.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WARFRAMES</a></li>
+            <li><a href="weapons.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WEAPONS</a></li>
+            <li><a href="guides.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">GUIDES</a></li>
+            <li><a href="https://forums.warframe.com/" target="_blank" class="px-4 py-2 hover:bg-gray-600 rounded-md">FORUM</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Content Section -->
+    <ul class="space-y-2 px-4 tc"> <!-- Custom text color and spacing -->
+      <li class="py-4 text-5xl">WARFRAMES</li> <!-- Section title -->
+
+      <!-- Warframes Image  -->
+      <li>
+        <img src="warframes.svg" />
+      </li>
+    </ul>
+  </body>
+</html>

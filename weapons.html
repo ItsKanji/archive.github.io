@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> <!-- Sets the character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Ensures responsive layout on all devices -->
+    <link rel="stylesheet" href="styles.css" /> <!-- Link to your custom CSS file (e.g., for .bc and .tc classes) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <!-- Load Tailwind CSS from CDN -->
+  </head>
+
+  <body>
+    <!-- Top navigation bar -->
+    <div class="border-b py-4 pl-0 bc"> <!-- Bottom border and padding, with custom border color from .bc -->
+        <div class="flex items-center mx-4"> <!-- Flexbox layout to align logo and nav menu -->
+            <img src="Logo.svg" width="250" /> <!-- Logo image  -->
+
+            <nav class="ml-125"> <!-- Navigation menu with custom left margin -->
+              <ul class="flex space-x-3 text-xl"> <!-- Flex row of nav items with spacing and large text -->
+                  <!-- Navigation links -->
+                  <li><a href="index.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">HOME</a></li>
+                  <li><a href="warframes.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WARFRAMES</a></li>
+                  <li><a href="weapons.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WEAPONS</a></li>
+                  <li><a href="guides.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">GUIDES</a></li>
+                  <li><a href="https://forums.warframe.com/" target="_blank" class="px-4 py-2 hover:bg-gray-600 rounded-md">FORUM</a></li>
+              </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main content: weapons section -->
+    <ul class="space-y-2 px-4 tc"> <!-- Vertically spaced list with padding and custom text color (.tc) -->
+        <li class="py-4 text-5xl">WEAPONS</li> <!-- Section header -->
+        <li>
+            <img src="weapons.svg" /> <!-- Weapons image  -->
+        </li>
+    </ul>
+  </body>
+</html>

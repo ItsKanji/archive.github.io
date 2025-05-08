@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> <!-- Sets UTF-8 character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Ensures proper scaling on all devices -->
+    <link rel="stylesheet" href="styles.css" /> <!-- External custom CSS (for classes like .tc) -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <!-- Loads Tailwind CSS via CDN -->
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <div class="border-b py-4 pl-0"> <!-- Bottom border, top/bottom padding, no left padding -->
+      <div class="flex items-center mx-4"> <!-- Flex layout with horizontal margin -->
+        
+        <!-- Logo image  -->
+        <img src="Logo.svg" width="250" />
+
+        <!-- Navigation Links -->
+        <nav class="ml-125"> <!-- Custom left margin (check if ml-125 is defined properly or use Tailwind's standard spacing like ml-[125px]) -->
+          <ul class="flex space-x-3 text-xl"> <!-- Horizontal nav list with spacing -->
+            <li><a href="index.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">HOME</a></li>
+            <li><a href="warframes.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WARFRAMES</a></li>
+            <li><a href="weapons.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">WEAPONS</a></li>
+            <li><a href="guides.html" class="px-4 py-2 hover:bg-gray-600 rounded-md">GUIDES</a></li>
+            <li><a href="https://forums.warframe.com/" target="_blank" class="px-4 py-2 hover:bg-gray-600 rounded-md">FORUM</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <ul class="space-y-2 px-4 tc"> <!-- Vertical spacing between list items, padding, and custom text color (tc) -->
+      <li class="py-4 text-5xl">BEGINNER TIPS</li> <!-- Section title -->
+      
+      <!-- Tips image  -->
+      <li>
+        <img src="tips.svg" width="90%" />
+      </li>
+    </ul>
+  </body>
+</html>
